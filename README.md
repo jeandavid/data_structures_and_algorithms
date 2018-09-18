@@ -12,11 +12,12 @@ This repo implements some basic data structures and algorithms. I have tried to 
 * [Heap](DataStructuresAndAlgorithms/Heap.swift)
 * [Graph](DataStructuresAndAlgorithms/Graph.swift)
 * [SparseGraph](DataStructuresAndAlgorithms/SparseGraph.swift)
+* [Binary Search Tree](DataStructuresAndAlgorithms/BinarySearchTree.swift)
 
 ### Algorithms
 
 * [Binary Search](DataStructuresAndAlgorithms/BinarySearch.swift)
 * [Merge Sort](DataStructuresAndAlgorithms/MergeSort.swift)
 * [Heap Sort](DataStructuresAndAlgorithms/HeapSort.swift)
-* [BreadthFirstSearch](DataStructuresAndAlgorithms/BreadthFirstSearch.swift)
-* [DepthFirstSearch](DataStructuresAndAlgorithms/DepthFirstSearch.swift)
+* [Breadth-First Search](DataStructuresAndAlgorithms/BreadthFirstSearch.swift)
+* [Depth-First Search](DataStructuresAndAlgorithms/DepthFirstSearch.swift)
