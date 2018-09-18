@@ -19,3 +19,4 @@ This repo implements some basic data structures and algorithms. I have tried to 
 * [Merge Sort](DataStructuresAndAlgorithms/MergeSort.swift)
 * [Heap Sort](DataStructuresAndAlgorithms/HeapSort.swift)
 * [BreadthFirstSearch](DataStructuresAndAlgorithms/BreadthFirstSearch.swift)
+* [DepthFirstSearch]()
