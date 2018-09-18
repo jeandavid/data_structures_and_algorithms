@@ -39,7 +39,7 @@ struct SparseGraph<Element: Hashable>: Graph {
         adjacencyList[vertex] = LinkedList.end
     }
     
-    /// Add an edge to the graph in constant time
+    /// Add an edge to the graph in constant time and weight 1
     mutating func addEdge(from tail: Vertex<Element>, to head: Vertex<Element>) {
         addEdge(from: tail, to: head, with: 1)
     }
@@ -52,6 +52,10 @@ struct SparseGraph<Element: Hashable>: Graph {
         if !directed {
             adjacencyList[head] = adjacencyList[head]?.insert(Edge(tail: head, head: tail, weight: weight))
         }
+    }
+    /// Add an edge to the graph in constant time
+    mutating func addEdge(_ edge: Edge<Element>) {
+        addEdge(from: edge.tail, to: edge.head, with: edge.weight)
     }
     
     func neighbors(of vertex: Vertex<Element>) -> [Vertex<Element>] {
