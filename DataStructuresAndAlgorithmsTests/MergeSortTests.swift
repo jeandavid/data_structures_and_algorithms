@@ -16,7 +16,7 @@ class MergeSortTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        var unsorted: [Int] = []
+        
         for _ in 0..<limit {
             let random = Int(arc4random_uniform(limit))
             unsorted.append(random)
