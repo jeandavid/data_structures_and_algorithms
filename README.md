@@ -20,6 +20,7 @@ This repo implements some basic data structures and algorithms. I have tried to 
 * [Merge Sort](DataStructuresAndAlgorithms/MergeSort.swift)
 * [Heap Sort](DataStructuresAndAlgorithms/HeapSort.swift)
 * [Quick Sort](DataStructuresAndAlgorithms/QuickSort.swift)
+* [Inversion Count](DataStructuresAndAlgorithms/InversionCount.swift)
 * [Breadth-First Search](DataStructuresAndAlgorithms/BreadthFirstSearch.swift)
 * [Depth-First Search](DataStructuresAndAlgorithms/DepthFirstSearch.swift)
 * [Dijkstra Shortest Path](DataStructuresAndAlgorithms/DijkstraShortPath.swift)
